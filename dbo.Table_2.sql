@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[UserTbl]
+(
+	[UId] INT NOT NULL PRIMARY KEY IDENTITY(500, 1), 
+    [UName] VARCHAR(50) NOT NULL, 
+    [UPhone] VARCHAR(50) NOT NULL, 
+    [UGen] VARCHAR(10) NOT NULL, 
+    [UAdd] VARCHAR(150) NOT NULL, 
+    [UPass] VARCHAR(50) NOT NULL
+)
